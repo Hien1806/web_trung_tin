@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    width: 100% !important;
+}
+header {
+    position: fixed;
+    z-index: 20;
+}
+
+
+header div.menu-bar {
+    display: flex;
+    padding: 250px;
+    gap: 100px;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+   right: 0!important;
+    left: 0!important;
+    width: 100%;
+
+   margin: 0px!important;
+    z-index: 10;
+
+}
+header div.menu-bar img {
+    max-height:  100%;
+    width: auto;
+    border-radius: 50%;
+}
+
+header div.menu-bar span {
+    color: black;
+    background-color: white;
+}
+header div.menu-bar i {
+
+    color: blue;
+    font-size: 25px;
+}
+div.contain-icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+ align-items: center;
+}
+header div.menu-bar p {
+    font-size: 20px;
+    color: white;
+}
+header {
+    background-color: black;
+}
+header div.menu-bar i.bi-list  {
+    font-size: 50px;
+}
+
+section.banner {
+    background-image: linear-gradient(rgba(5, 5, 5,0.6 ), rgba(10, 10, 10, 0.6)) , url("Images/anh_nen_xe.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position-y: -200px;
+
+    background-color: black;
+    position: relative;
+
+}
+div#navmenu {
+    background: #ffc701;
+    position: relative;
+    z-index: 2;
+}
+#navmenu ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.banner .submenu li {
+    list-style: none;
+
+}
+.banner ul.submenu li i  {
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+    margin-right: 5px;
+    color: #13224b;
+}
+.banner a {
+    color: black;
+}
+.banner .main-menu a {
+    font-weight: bold;
+}
+.banner .main-menu a:hover {
+    color: black;
+}
+.banner ul.submenu li a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.banner ul.submenu li a:hover {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.marquee {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: #ccc;
+}
+section.banner .runtext {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px ;
+    color:#d72323;
+
+}
+.runtext marquee {
+    color:#ffd615;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+.container-content {
+    display: flex;
+    margin-top: 20px;
+}
+.sidebar {
+    width: 40%;
+    height: 600px;
+}
+.main-content {
+    width: 60%;
+    margin-left: 100px;
+    text-align: center;
+}
+  td, th {
+     border: 1px solid #3b3533 !important;
+     border-collapse: collapse;
+ }
+tr {
+    height: 90px;
+}
+th {
+    width: 20%;
+}
+th, td {
+    padding: 0 15px;
+}
+table {
+    background-color: #857671 !important;
+    color: white;
+}
+tr:hover {
+    background-color: #ec9454;
+    font-size: 20px;
+}
+.main-content {
+}
+.container-content {
+padding:0  50px!important;
+}
+.bi-list {
+    color: #fba834!important;
+}
+.sub-content {
+    display: flex;
+    padding: 0 50px!important;
+    margin-top: 20px;
+}
+.sub-content img {
+    width: 65%;
+    height: auto;
+}
+.sub-content div {
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.sub-content h4 {
+    line-height: 1.8;
+}
+.footer {
+
+    padding: 20px 80px!important;
+    margin-top: 50px;
+    background-color: #2f2725;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.footer .map {
+    height: 100% !important;
+}
+
+
+
